@@ -1,0 +1,38 @@
+{
+  "name": "TechNova Solutions",
+  "short_name": "TechNova",
+  "description": "Practical SaaS and AI products for teams who would rather get on with the work.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#ff6b5b",
+  "icons": [
+    {
+      "src": "assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "orientation": "any",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "developer"],
+  "shortcuts": [
+    {
+      "name": "Products",
+      "url": "/pages/products.html",
+      "description": "Browse our products"
+    },
+    {
+      "name": "Pricing",
+      "url": "/pages/pricing.html",
+      "description": "Plans and pricing"
+    },
+    {
+      "name": "Contact",
+      "url": "/pages/about.html#contact",
+      "description": "Get in touch"
+    }
+  ]
+}

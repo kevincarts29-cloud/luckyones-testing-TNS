@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - TechNova Solutions</title>
+    <meta name="description" content="Notes from the team building SaaS and AI products: applied AI, integrations, reporting, security, and what we have learned shipping software.">
+    <link rel="stylesheet" href="../assets/css/variables.css">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="icon" type="image/svg+xml" href="../assets/icons/favicon.svg">
+    <meta name="theme-color" content="#ff6b5b">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <a href="../index.html" aria-label="TechNova Solutions home">
+                            <img src="../assets/img/logo.svg" alt="TechNova Solutions">
+                        </a>
+                    </div>
+                    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Toggle navigation">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="services.html">Capabilities</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="solutions.html">Use Cases</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html" class="active">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Notes from the workshop</h1>
+                <p>Things we have learned shipping software. Some of it useful, some of it just us arguing about naming.</p>
+            </div>
+        </section>
+
+        <!-- Featured -->
+        <section class="content-section">
+            <div class="container">
+                <article class="card">
+                    <img class="post-image" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&h=600&q=80" alt="Globe of network connections representing cloud infrastructure" loading="lazy" width="1200" height="600">
+                    <span class="tag">Featured</span>
+                    <h2 style="font-size:1.9rem;margin:1rem 0 0.75rem;">The boring parts are the product</h2>
+                    <p style="font-size:1.05rem;">Most of what makes software dependable is unremarkable: retry logic, clear errors, sensible defaults, and someone who answers the phone. We spend more time on this than on anything flashy, and it is the single biggest difference our clients notice after month three.</p>
+                    <div class="meta" style="margin:1.25rem 0;">
+                        <span>Sarah Chen</span>
+                        <span>&middot;</span>
+                        <span>October 2025</span>
+                        <span>&middot;</span>
+                        <span>7 min read</span>
+                    </div>
+                    <a href="#" class="btn btn-primary">Read the post</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Latest -->
+        <section class="content-section content-section-alt">
+            <div class="container">
+                <h2 class="section-title">Latest writing</h2>
+                <div class="blog-grid">
+
+                    <article class="card">
+                        <img class="post-image" src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?auto=format&fit=crop&w=800&h=450&q=80" alt="Developer writing code on a laptop" loading="lazy" width="800" height="450">
+                        <div style="display:flex;gap:0.5rem;margin-bottom:1rem;">
+                            <span class="tag">Integrations</span>
+                            <span class="tag tag-muted">API</span>
+                        </div>
+                        <h3>Your systems do not need replacing, they need talking</h3>
+                        <p style="margin-bottom:1rem;">Before you migrate off the system that is annoying, ask whether the annoyance is just missing glue. A weekend of integration work often beats a quarter of replacement work.</p>
+                        <div class="meta">
+                            <span>Michael Rodriguez</span>
+                            <span>September 2025</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="post-image" src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=800&h=450&q=80" alt="Abstract AI interface illustration" loading="lazy" width="800" height="450">
+                        <div style="display:flex;gap:0.5rem;margin-bottom:1rem;">
+                            <span class="tag">Applied AI</span>
+                        </div>
+                        <h3>Evaluating AI on your own tasks, not a benchmark</h3>
+                        <p style="margin-bottom:1rem;">Public benchmarks are close to useless for deciding whether a model helps your team. Take forty real examples, time both ways, and let the numbers decide.</p>
+                        <div class="meta">
+                            <span>Priya Raman</span>
+                            <span>September 2025</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="post-image" src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&h=450&q=80" alt="Business analytics dashboard on a screen" loading="lazy" width="800" height="450">
+                        <div style="display:flex;gap:0.5rem;margin-bottom:1rem;">
+                            <span class="tag">Data</span>
+                        </div>
+                        <h3>The metric definition argument is the real work</h3>
+                        <p style="margin-bottom:1rem;">Nobody has ever regretted agreeing on what a number means. Everybody has regretted skipping it. Half of a reporting project is deciding what counts, and that half is worth doing properly.</p>
+                        <div class="meta">
+                            <span>David Kim</span>
+                            <span>August 2025</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="post-image" src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80" alt="Security lock representing access control" loading="lazy" width="800" height="450">
+                        <div style="display:flex;gap:0.5rem;margin-bottom:1rem;">
+                            <span class="tag">Security</span>
+                        </div>
+                        <h3>Offboarding is the security feature nobody tests</h3>
+                        <p style="margin-bottom:1rem;">Ask any team how quickly they can revoke access for someone who left last month. The answer is usually a pause followed by an excuse. It is a small amount of work that closes a surprisingly large hole.</p>
+                        <div class="meta">
+                            <span>Sarah Chen</span>
+                            <span>August 2025</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="post-image" src="https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?auto=format&fit=crop&w=800&h=450&q=80" alt="Team collaborating around a desk" loading="lazy" width="800" height="450">
+                        <div style="display:flex;gap:0.5rem;margin-bottom:1rem;">
+                            <span class="tag">Process</span>
+                        </div>
+                        <h3>Six-week projects, and the awkward questions they force</h3>
+                        <p style="margin-bottom:1rem;">Deliberately short timelines change what you build. You cannot afford the abstraction layer, so you build the thing, and the thing is usually better for it.</p>
+                        <div class="meta">
+                            <span>Michael Rodriguez</span>
+                            <span>July 2025</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img class="post-image" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&h=450&q=80" alt="Server racks representing hosting infrastructure" loading="lazy" width="800" height="450">
+                        <div style="display:flex;gap:0.5rem;margin-bottom:1rem;">
+                            <span class="tag">Infrastructure</span>
+                        </div>
+                        <h3>Why we run boring hosting on purpose</h3>
+                        <p style="margin-bottom:1rem;">Managed platforms save time and cost money you do not yet know you need. For small teams we default to plain servers and a good deployment script, which is dull and has never surprised us.</p>
+                        <div class="meta">
+                            <span>David Kim</span>
+                            <span>July 2025</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="content-section">
+            <div class="container">
+                <h2 class="section-title">Browse by topic</h2>
+                <div style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:center;">
+                    <a href="#" class="btn btn-secondary" style="padding:0.6rem 1.3rem;">Everything</a>
+                    <a href="#" class="btn btn-secondary" style="padding:0.6rem 1.3rem;">Applied AI</a>
+                    <a href="#" class="btn btn-secondary" style="padding:0.6rem 1.3rem;">Integrations</a>
+                    <a href="#" class="btn btn-secondary" style="padding:0.6rem 1.3rem;">Data</a>
+                    <a href="#" class="btn btn-secondary" style="padding:0.6rem 1.3rem;">Security</a>
+                    <a href="#" class="btn btn-secondary" style="padding:0.6rem 1.3rem;">Process</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="cta">
+            <div class="container">
+                <h2>Get the occasional email</h2>
+                <p>One short note a month about what we shipped and what we got wrong. No drip campaign, unsubscribe in one click.</p>
+                <form data-notify style="max-width:480px;margin:2rem auto 0;">
+                    <div style="display:flex;gap:0.75rem;flex-wrap:wrap;">
+                        <input type="email" name="email" placeholder="you@company.com" required aria-label="Email address" style="flex:1;min-width:220px;padding:0.85rem 1rem;border-radius:var(--radius-md);border:1px solid var(--border-strong);background-color:var(--navy-900);color:var(--text-primary);font-family:inherit;font-size:1rem;">
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <p data-form-note hidden style="margin-top:1rem;color:var(--text-secondary);font-size:0.92rem;"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>TechNova Solutions</h4>
+                    <p>Practical SaaS and AI products for teams who would rather get on with the work.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">FlowDesk</a></li>
+                        <li><a href="products.html">CopilotKit</a></li>
+                        <li><a href="products.html">ClearView</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="services.html">Capabilities</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="about.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="../terms.html">Terms &amp; Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; TechNova Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

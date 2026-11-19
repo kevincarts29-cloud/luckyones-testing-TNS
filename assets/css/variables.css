@@ -1,0 +1,59 @@
+/*
+Design tokens for TechNova Solutions.
+Palette: Warm Coral + Navy. Warm accent on a cool, trustworthy base.
+*/
+
+:root {
+    /* Brand */
+    --navy-900: #0a1628;
+    --navy-800: #0f1f38;
+    --navy-700: #16294a;
+    --navy-600: #1d3557;
+
+    --coral-500: #ff6b5b;
+    --coral-400: #ff8878;
+    --coral-300: #ffa79a;
+
+    /* Semantic colors */
+    --primary-color: var(--coral-500);
+    --secondary-color: var(--coral-400);
+    --accent-color: #ffb4a6;
+    --success-color: #34d399;
+    --warning-color: #fbbf24;
+    --error-color: #f87171;
+
+    /* Surfaces */
+    --dark-bg: var(--navy-900);
+    --dark-accent: var(--navy-800);
+    --surface-raised: var(--navy-700);
+    --border-subtle: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.16);
+
+    /* Text */
+    --text-primary: #f7f9fc;
+    --text-secondary: #b4c1d4;
+    --text-muted: #8296ae;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, var(--coral-500) 0%, #ff9d6e 100%);
+    --gradient-secondary: linear-gradient(135deg, var(--navy-600) 0%, var(--coral-500) 100%);
+    --gradient-hero: linear-gradient(160deg, var(--navy-800) 0%, var(--navy-900) 60%, #12233f 100%);
+
+    /* Icon sizing */
+    --icon-xs: 1rem;
+    --icon-sm: 1.25rem;
+    --icon-md: 1.75rem;
+    --icon-lg: 2.5rem;
+    --icon-xl: 3.25rem;
+
+    /* Motion */
+    --transition-fast: 160ms ease;
+    --transition-normal: 260ms ease;
+
+    /* Radius + shadow */
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --shadow-md: 0 10px 24px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 18px 40px rgba(0, 0, 0, 0.38);
+}
